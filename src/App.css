@@ -1,0 +1,89 @@
+.App2
+{
+  height:400px;
+  width:100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  
+  border: 2px solid red;
+
+}
+
+.head
+{
+  position: absolute;
+  left: 500px;
+  top:10px;
+  font-size: 30px;
+  
+}
+
+
+
+
+#btn1
+{
+  position: absolute;
+  left: 400px;
+  top:150px;
+  border-radius: 20px;
+  padding:10px;
+  height:60px;
+  width:auto;
+  background-color:rgb(117, 152, 152);
+  font-weight: bold;
+  
+}
+
+#btn1:hover{
+  background-color: aqua;
+  
+}
+
+
+#btn2
+{
+  position: absolute;
+  right: 400px;
+  top:150px;
+  border-radius: 20px;
+  padding:10px;
+  height:60px;
+  width:auto;
+  background-color:rgb(117, 152, 152);
+  font-weight: bold;
+  
+}
+#btn2:hover
+{
+background-color: aquamarine;
+}
+
+.Box1
+{
+position:absolute;
+  top:400px;
+  left: 250px;
+  height:200px;
+  width:450px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: aqua;
+  
+}
+
+.Box2
+{
+position:absolute;
+  top:400px;
+  right:120px;
+  height:200px;
+  width:450px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: aquamarine;
+  
+}
